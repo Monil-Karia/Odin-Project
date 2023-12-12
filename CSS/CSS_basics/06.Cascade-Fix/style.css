@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para , .small{
+    color: hsl(0,0%,0%);
+    font-weight: 800;
+}
+
+.para{
+    font-size: 30px;
+    font-weight: 1000;
+}
+.para.small{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#confirm-btn{
+    background-color: green;
+    color: white;
+}
+#cancel-btn{
+    background-color: white;
+    color:black;
+}
+.button{
+    border-color: black;
+    color: rgb(0,0,0);
+    font-size: 30px;
+}
+/*
+    very Immportant concept to understand 
+*/
+div.txt{ /* Ek divsion jo txt ke naam se hai*/
+    color: rgb(0,0,0);
+    font-size: 24px;
+    font-weight: 100;
+}
+
+div .child{/* Ek divsion jiske andar .child naam ka div hai*/
+    font-size: 14px;
+    font-weight: 800;
+}
