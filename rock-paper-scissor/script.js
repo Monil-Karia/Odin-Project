@@ -33,7 +33,7 @@ function battleWinner() {
         }
     }
 
-    if (computerScore === 5) console.log("Sadly, the computer is smarter than you");
+    if (computerScore === 5) console.log("Sadly, the computer is smarter than you . Y ou will be jobless Soon.!");
     else if (userScore === 5) console.log("Yeahh.! AI will not take your job");
 }
 
