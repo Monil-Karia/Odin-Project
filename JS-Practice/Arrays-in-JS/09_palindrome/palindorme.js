@@ -4,9 +4,11 @@ const palindromes = function (userInput) {
     userInput = userInput.toLowerCase();
 
     while(start <= end){
-        if(userInput[start++] === " " || userInput[end--] === " ") continue;
-        else if(userInput[start++] !== userInput[end--]) return false;
-        start++; end--;
+        if(userInput[start++] === " ") continue;
+        else if(userInput[end--] === " ") continue;
+        else if(userInput[start] !== userInput[end]) return false;
+        start++; 
+        end--;
     }
     return true;
 };
