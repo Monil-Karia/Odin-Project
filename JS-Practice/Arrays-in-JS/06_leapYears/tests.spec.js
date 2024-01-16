@@ -1,4 +1,4 @@
-const leapYears = require('./leapYears-solution');
+const leapYears = require('./leapYear');
 
 describe('leapYears', () => {
   test('works with non century years', () => {
