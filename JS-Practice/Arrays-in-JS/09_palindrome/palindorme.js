@@ -1,4 +1,4 @@
-function isLetter(str){
+ /* function isLetter(str){
     return str.length === 1 && str.match(/[a-z]/i);
 }
 const palindromes = function (userInput) {
@@ -20,3 +20,12 @@ const palindromes = function (userInput) {
 
 // Do not edit below this line
 module.exports = palindromes;
+ */
+
+//Given Solution 
+const palindromes = function (string) {
+    const processedString = string.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return processedString.split("").reverse().join("") == processedString;
+  };
+  
+  module.exports = palindromes;

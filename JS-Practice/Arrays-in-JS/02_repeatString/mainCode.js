@@ -1,7 +1,7 @@
 const repeatString = function(name , repeat) {
     let newString  = "";
     if(repeat < 0) return "ERROR";
-    while ( repeat === 0){
+    while (repeat){
         newString += name;
         repeat--;
     }

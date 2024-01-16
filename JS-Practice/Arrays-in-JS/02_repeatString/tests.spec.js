@@ -1,4 +1,4 @@
-const repeatString = require('./maincode.js');
+const repeatString = require('./mainCode');
 
 describe('repeatString', () => {
   test('repeats the string', () => {

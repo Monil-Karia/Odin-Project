@@ -1,7 +1,5 @@
 const getTheTitles = function(userArr) {
-    let ansArr = [];
-    ansArr = (userArr) => { userArr.map() = userArr.title};
-    return ansArr;
+    return userArr.map(book => book.title);
 };
 
 // Do not edit below this line
