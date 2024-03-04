@@ -1,3 +1,3 @@
 # Odin-Project
-Repo for Odin Porject and Stuff
+Repo for Odin Project and Stuff
 Heello From the Odin Project.!
